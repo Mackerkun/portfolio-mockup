@@ -1,0 +1,192 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.new-container {
+	position: relative;
+	text-align: center;
+	color: white;
+	z-index: -1;
+
+}
+
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+}
+
+.top-left {
+	position: absolute;
+	top: 8px;
+	left: 16px;
+}
+
+.top-right {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+}
+
+.bottom-right {
+	position: absolute;
+	bottom: 8px;
+	right: 16px;
+}
+
+.centered-top {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -80%);
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.new-centered {
+	top: 50%;
+	left: 50%;
+}
+
+nav {
+	background-color: transparent;
+}
+
+.subtitle {
+	color: white;
+	font-weight: 200;
+}
+
+#welcome-image {
+	position: absolute;
+	left: -12%;
+	bottom: 0;
+}
+
+#section-1, footer {
+	background: rgb(25, 29, 135);
+	background: -moz-linear-gradient(90deg, rgba(25, 29, 135, 1) 52%, rgba(66, 26, 136, 1) 81%);
+	background: -webkit-linear-gradient(90deg, rgba(25, 29, 135, 1) 52%, rgba(66, 26, 136, 1) 81%);
+	background: linear-gradient(90deg, rgba(25, 29, 135, 1) 52%, rgba(66, 26, 136, 1) 81%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#191d87", endColorstr="#421a88", GradientType=1);
+}
+
+#section-1 .row {
+	position: absolute;
+	top: 35%;
+	width: 100%;
+	z-index: 999;
+}
+
+#section-2 {
+	padding-top: 10%;
+	background: rgb(78, 70, 55);
+	background: -moz-linear-gradient(90deg, rgba(78, 70, 55, 1) 26%, rgba(26, 136, 135, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(78, 70, 55, 1) 26%, rgba(26, 136, 135, 1) 100%);
+	background: linear-gradient(90deg, rgba(78, 70, 55, 1) 26%, rgba(26, 136, 135, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4e4637", endColorstr="#1a8887", GradientType=1);
+}
+
+#section-3 {
+	padding-top: 5%;
+	background: rgb(42, 93, 86);
+	background: -moz-linear-gradient(90deg, rgba(42, 93, 86, 1) 24%, rgba(17, 29, 187, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(42, 93, 86, 1) 24%, rgba(17, 29, 187, 1) 100%);
+	background: linear-gradient(90deg, rgba(42, 93, 86, 1) 24%, rgba(17, 29, 187, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a5d56", endColorstr="#111dbb", GradientType=1);
+}
+
+#section-4 {
+	padding-top: 10%;
+	background-image: url("img/background-4.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#section-5 {
+	padding-top: 10%;
+	background: rgb(22, 82, 24);
+	background: -moz-linear-gradient(25deg, rgba(22, 82, 24, 1) 24%, rgba(9, 150, 106, 1) 81%);
+	background: -webkit-linear-gradient(25deg, rgba(22, 82, 24, 1) 24%, rgba(9, 150, 106, 1) 81%);
+	background: linear-gradient(25deg, rgba(22, 82, 24, 1) 24%, rgba(9, 150, 106, 1) 81%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#165218", endColorstr="#09966a", GradientType=1);
+}
+
+#section-1-title .title {
+	border-left: 5px solid white;
+	padding-left: 5%;
+}
+
+#section-2-title .title {
+	font-weight: 400;
+	text-align: right;
+	border-right: 5px solid white;
+	padding-right: 5%;
+}
+
+#section-1-title h2 {
+	margin-top: 0;
+}
+
+#section-1-contact-me-button,
+#section-1-cv-button {
+	font-size: inherit;
+	padding: 10px 50px;
+	display: inline-block;
+	margin: 15px 30px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	outline: none;
+	border: 3px solid white;
+	border-radius: 60px;
+	background: transparent;
+	color: white;
+	-webkit-transition: background 0.4s;
+	/* For Safari 3.0 to 6.0 */
+	transition: background 0.4s;
+	/* For modern browsers */
+}
+
+#section-1-contact-me-button:hover {
+	background: #110953;
+	color: white;
+}
+
+#section-1-cv-button:hover {
+	background: #1a5652;
+	color: white;
+}
+/* White dots menu */
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+	background: white;
+}
+
+.fp-nav ul li:last-child {
+	display: none;
+}
+
+.fp-controlArrow.fp-prev {
+	left: 100px;
+}
+
+.fp-controlArrow.fp-next {
+	right: 100px;
+}
+
+i.small-medium {
+	font-size: 2.3rem;
+	margin-bottom: 15%;
+}
+
+.card-title {
+	font-weight: 400 !important;
+	margin-bottom: 25% !important;
+}

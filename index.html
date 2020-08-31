@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/materialize.min.css">
+	<link rel="stylesheet" href="assets/fullpage.css">
+	<link rel="stylesheet" href="assets/aos.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="assets/scroll_down_invite.css">
+	<link rel="stylesheet" href="assets/style.css">
+	<title>Mackerkun</title>
+</head>
+
+<body>
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#!" class="brand-logo new-container">
+					<img src="assets/img/LogoMackerkunVettoriale.svg" alt="Logo" width="80%" class="new-centered">
+				</a>
+				<a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down" id="navbarMenu">
+					<li data-menuanchor="section1"><a href="#section1" class="navbar-item active">Home</a></li>
+					<li data-menuanchor="section2"><a href="#section2" class="navbar-item">Su di me</a></li>
+					<li data-menuanchor="section3"><a href="#section3" class="navbar-item">Progetti</a></li>
+					<li data-menuanchor="section4"><a href="#section4" class="navbar-item">Skill</a></li>
+					<li data-menuanchor="section5"><a href="#section5" class="navbar-item">Contatti</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<!-- Mobile sidenav -->
+	<ul class="sidenav" id="mobile-sidenav">
+		<li>
+			<div class="user-view">
+				<div class="background">
+					<img data-src="images/office.jpg">
+				</div>
+				<a href="#user"><img class="circle" data-src="images/yuna.jpg"></a>
+				<a href="#name"><span class="white-text name">John Doe</span></a>
+				<a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+			</div>
+		</li>
+		<li><a href="#!" class="navbar-item active">Home</a></li>
+		<li><a href="#!" class="navbar-item">Su di me</a></li>
+		<li><a href="#!" class="navbar-item">Progetti</a></li>
+		<li><a href="#!" class="navbar-item">Blog</a></li>
+		<li><a href="#!" class="navbar-item">Contatti</a></li>
+	</ul>
+
+
+
+	<div id="fullpage" style="margin-top: -64px;">
+		<!-- Homepage -->
+		<div class="section" id="section-1" data-anchor="section1" data-tooltip="Home">
+			<!-- Scroll down invite -->
+			<div class="scroll-downs" id="mouse-scroll-invite">
+				<div class="mousey">
+					<div class="scroller"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s5 push-s1" id="section-1-title">
+					<div class="title" data-aos="zoom-in" data-aos-duration="500">
+						<h2 class="white-text">Marco Fiore</h2>
+						<h4 class="white-text" style="font-weight: 200;">Dottore in Ingegneria Informatica</h4>
+					</div>
+					<a href="#section5" id="section-1-contact-me-button"><span>Contattami</span></a>
+				</div>
+			</div>
+			<img src="assets/img/model.png" alt="Welcome image" id="welcome-image" data-aos="fade-up"
+				data-aos-duration="1500">
+		</div>
+		<!-- About -->
+		<div class="section" id="section-2" data-anchor="section2" data-tooltip="Su di me">
+			<h3 class="subtitle center">Su di me</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m6">
+						<img src="assets/img/model.png" alt="About me" width="100%">
+					</div>
+					<div class="col s12 m6" id="section-2-title">
+						<p class="title white-text">
+							Sono nato il 26 maggio 1997. Studio Ingegneria Informatica magistrale presso il Politecnico di Bari.
+							Mi piace prendere problemi complessi e trasformarli in interfacce moderne e semplici, utilizzando
+							qualsiasi strumento a mia disposizione.
+							<br>
+							<br>
+							<br>
+							Quando non scrivo codice, puoi trovarmi in un museo o in un circuito di Formula 1!
+						</p>
+						<a href="#!" class="right" id="section-1-cv-button"><span>Scarica il mio CV</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Progetti -->
+		<div class="section" id="section-3" data-anchor="section3" data-tooltip="Progetti">
+			<h3 class="subtitle center">Progetti</h3>
+			<div class="slide">
+				<div class="container">
+					<div class="row">
+						<div class="col s4">
+							<div class="card large hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" data-src="assets/img/progetti/load-cell-calibration.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Load Cell Calibration<i
+											class="material-icons right">more_vert</i></span>
+								</div>
+								<div class="card-action">
+									<a class="activator" style="cursor: pointer; color: #16a085;">Scopri di più</a>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Load Cell Calibration<i
+											class="material-icons right">close</i></span>
+									<p>Taratura di una cella di carico sfruttando LabVIEW e Arduino</p>
+									<a class="waves-effect waves-light btn right activator"
+										href="https://github.com/Mackerkun/Load_cell_calibration">Vai</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="col s4">
+							<div class="card large hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" data-src="assets/img/progetti/control-methods-project.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">360 Video Analysis<i
+											class="material-icons right">more_vert</i></span>
+								</div>
+								<div class="card-action">
+									<a class="activator" style="cursor: pointer; color: #16a085;">Scopri di più</a>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">360 Video Analysis<i
+											class="material-icons right">close</i></span>
+									<p>Creazione di una piattaforma web che permette la visione di video a 360° con successiva raccolta di
+										informazioni come latitudine e longitudine e visualizzazione di grafici</p>
+									<a class="waves-effect waves-light btn right activator"
+										href="https://www.mackerkun.it/projects/controlmethods">Vai</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="col s4">
+							<div class="card large hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" data-src="assets/img/progetti/mackerkun-logo.png">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Blog<i
+											class="material-icons right">more_vert</i></span>
+								</div>
+								<div class="card-action">
+									<a class="activator" style="cursor: pointer; color: #16a085;">Scopri di più</a>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Blog<i class="material-icons right">close</i></span>
+									<p>Blog contenente le principali notizie su Star Wars e qualche curiosità su Game of Thrones</p>
+									<a class="waves-effect waves-light btn right activator" href="https://www.mackerkun.it/blog">Vai</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="container">
+					<div class="row">
+						<div class="col s4">
+							<div class="card large hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" data-src="assets/img/progetti/cimeli-di-attimi.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">Cimeli di attimi<i
+											class="material-icons right">more_vert</i></span>
+								</div>
+								<div class="card-action">
+									<a class="activator" style="cursor: pointer; color: #16a085;">Scopri di più</a>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">Cimeli di attimi<i
+											class="material-icons right">close</i></span>
+									<p>Ho una sola, grande paura: dimenticare. La storia di come ho conosciuto la compagna della mia vita.
+									</p>
+									<a class="waves-effect waves-light btn right activator"
+										href="https://www.mackerkun.it/blog/cimeli-di-attimi">Vai</a>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col s4">
+							<div class="card large hoverable">
+								<div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" data-src="assets/img/progetti/selfieoftheday.jpg">
+								</div>
+								<div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">SelfieOfTheDay<i
+											class="material-icons right">more_vert</i></span>
+								</div>
+								<div class="card-action">
+									<a class="activator" style="cursor: pointer; color: #16a085;">Scopri di più</a>
+								</div>
+								<div class="card-reveal">
+									<span class="card-title grey-text text-darken-4">SelfieOfTheDay<i
+											class="material-icons right">close</i></span>
+									<p>2015. Un selfie al giorno, con descrizione, per 365 giorni, su ciò che ha reso la giornata
+										"felice".</p>
+									<a class="waves-effect waves-light btn right activator"
+										href="https://www.facebook.com/Mackerkun/media_set?set=a.821948347865904&amp;type=3">Vai</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Skill e hobby -->
+		<div class="section" id="section-4" data-anchor="section4" data-tooltip="Skill">
+			<h3 class="subtitle center">Skill</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col s4">
+						<span class="white-text">HTML & CSS</span>
+						<div class="progress">
+							<div class="determinate" style="width: 90%"></div>
+						</div>
+					</div>
+					<div class="col s4">
+						<span class="white-text">JavaScript</span>
+						<div class="progress">
+							<div class="determinate" style="width: 85%"></div>
+						</div>
+					</div>
+					<div class="col s4">
+						<span class="white-text">Suite Office</span>
+						<div class="progress">
+							<div class="determinate" style="width: 95%"></div>
+						</div>
+					</div>
+					<div class="col s4">
+						<span class="white-text">Suite Adobe</span>
+						<div class="progress">
+							<div class="determinate" style="width: 80%"></div>
+						</div>
+					</div>
+					<div class="col s4">
+						<span class="white-text">Bash Linux</span>
+						<div class="progress">
+							<div class="determinate" style="width: 70%"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h3 class="subtitle center">Hobby</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col s6 m3 center">
+						<img src="assets/img/hobby/car.png" alt="F1" width="30%">
+					</div>
+					<div class="col s6 m3 center">
+						<img src="assets/img/hobby/r2d2.png" alt="Star Wars" width="30%">
+					</div>
+					<div class="col s6 m3 center">
+						<img src="assets/img/hobby/d20.png" alt="D&D" width="30%">
+					</div>
+					<div class="col s6 m3 center">
+						<img src="assets/img/hobby/student.png" alt="Leggere" width="30%">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contatti -->
+		<div class="section" id="section-5" data-anchor="section5" data-tooltip="Contatti">
+			<h3 class="subtitle center">Contatti</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m3">
+						<a href="tel:3930110010">
+							<div class="card small hoverable" style="background-color: transparent;">
+								<div class="card-content white-text center">
+									<i class="material-icons small-medium">phone</i>
+									<span class="card-title">Telefono</span>
+									<p>+39 393 011 0010</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col s12 m3">
+						<a href="mailto:fiore.marco@outlook.it">
+							<div class="card small hoverable" style="background-color: transparent;">
+								<div class="card-content white-text center">
+									<i class="material-icons small-medium">mail</i>
+									<span class="card-title">E-mail</span>
+									<p>fiore.marco@outlook.it</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col s12 m3">
+						<a href="https://t.me/mackerkun" target="_blank">
+							<div class="card small hoverable" style="background-color: transparent;">
+								<div class="card-content white-text center">
+									<i class="material-icons small-medium">phone</i>
+									<span class="card-title">Telegram</span>
+									<p>Contattami su Telegram, ti risponderò quanto prima!</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col s12 m3">
+						<a href="#!">
+							<div class="card small hoverable" style="background-color: transparent;">
+								<div class="card-content white-text center">
+									<i class="material-icons small-medium">phone</i>
+									<span class="card-title">Orari di lavoro</span>
+									<p>Dal lunedì al venerdì</p>
+									<p>Dalle 17 alle 20</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+		<div class="section fp-auto-height" data-anchor="section6" style="padding: 0;">
+			<footer class="page-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col l6 s12">
+							<h5 class="white-text">Footer Content</h5>
+							<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+						</div>
+						<div class="col l4 offset-l2 s12">
+							<h5 class="white-text">Links</h5>
+							<ul>
+								<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+								<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+								<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+								<li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						© 2014 Copyright Text
+						<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/fullpage.js"></script>
+	<script src="js/fullpage.extensions.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
