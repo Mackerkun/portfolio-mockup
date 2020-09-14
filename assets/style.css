@@ -2,6 +2,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	font-family: 'Poppins', sans-serif;
 }
 
 .new-container {
@@ -70,12 +71,6 @@ nav {
 .subtitle {
 	color: white;
 	font-weight: 200;
-}
-
-#welcome-image {
-	position: absolute;
-	left: 45%;
-	bottom: -20px;
 }
 
 #section-1,
@@ -157,6 +152,7 @@ footer {
 .new-btn,
 #section-1-contact-me-button,
 #section-1-cv-button,
+#section-1-cv-button-eng,
 #form-button {
 	font-size: inherit;
 	padding: 10px 50px;
@@ -191,7 +187,8 @@ footer {
 	color: white;
 }
 
-#section-1-cv-button:hover {
+#section-1-cv-button:hover,
+#section-1-cv-button-eng:hover {
 	background: #1a5652;
 	color: white;
 }
@@ -275,8 +272,12 @@ footer {
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
+	#section-1-title {
+		margin-top: -100px;
+	}
+
 	#welcome-image {
-		left: -10%;
+		margin-top: 0 !important;
 	}
 
 	#fp-nav {

@@ -1,4 +1,6 @@
 $(document).ready(function () {
+	$('.tooltipped').tooltip();
+
 	$('.sidenav').sidenav({
 		onOpenEnd: function() {
 			$('.sidenav .navbar-item').on('click', function() {
@@ -238,7 +240,7 @@ function checkMobile() {
 								<div class="card large hoverable" style="background-color: transparent;">
 									<div class="card-content white-text center">
 										<i class="material-icons small-medium" style="margin-bottom: 5%;">format_quote</i>
-										<span class="card-title" style="margin-bottom: 5% !important;">Form diretto</span>
+										<span class="card-title" style="margin-bottom: 5% !important;">Form</span>
 										<div class="row">
 											<form class="col s12" id="form-contact-me">
 												<div class="row">
@@ -464,7 +466,7 @@ function checkMobile() {
 								<div class="card hoverable" style="background-color: transparent;">
 									<div class="card-content white-text center">
 										<i class="material-icons small-medium" style="margin-bottom: 5%;">format_quote</i>
-										<span class="card-title" style="margin-bottom: 5% !important;">Form diretto</span>
+										<span class="card-title" style="margin-bottom: 5% !important;">Form</span>
 										<div class="row">
 											<form class="col s12" id="form-contact-me">
 												<div class="row">

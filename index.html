@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="assets/fullpage.css">
 	<link rel="stylesheet" href="assets/aos.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/scroll_down_invite.css">
 	<link rel="stylesheet" href="assets/style.css">
 	<title>Mackerkun</title>
@@ -17,7 +18,7 @@
 	<div class="navbar-fixed">
 		<nav>
 			<div class="nav-wrapper">
-				<a href="#!" class="brand-logo new-container">
+				<a href="#section1" class="brand-logo new-container">
 					<img src="assets/img/LogoMackerkunVettoriale.svg" alt="Logo" width="80%" class="new-centered">
 				</a>
 				<a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -62,16 +63,18 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s5 push-s1" id="section-1-title">
+				<div class="col s12 m5 push-m1" id="section-1-title">
 					<div class="title" data-aos="zoom-in" data-aos-duration="500">
-						<h2 class="white-text">Marco Fiore</h2>
+						<h2 class="white-text" style="font-weight: 200;">Marco Fiore</h2>
 						<h4 class="white-text" style="font-weight: 200;">Dottore in Ingegneria Informatica</h4>
 					</div>
 					<a href="#section5" id="section-1-contact-me-button"><span>Contattami</span></a>
 				</div>
+				<div class="col s12 m6 center" id="welcome-image" data-aos="fade-up" data-aos-duration="1500" style="margin-top: -8%;">
+					<img src="assets/img/undraw_Freelancer_re_irh4.svg" alt="Me" width="100%">
+				</div>
 			</div>
-			<img src="assets/img/octocat.png" height="100%" alt="Welcome image" id="welcome-image" data-aos="fade-up"
-				data-aos-duration="1500">
+			
 		</div>
 		<!-- About -->
 		<div class="section" id="section-2" data-anchor="section2" data-tooltip="Su di me">
@@ -79,7 +82,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col s12 m6">
-						<img src="assets/img/octocat.png" alt="About me" width="100%">
+						<img src="assets/img/humaaans_bg.png" alt="About me" width="80%">
 					</div>
 					<div class="col s12 m6" id="section-2-title">
 						<p class="title white-text">
@@ -91,7 +94,7 @@
 							<br>
 							Quando non scrivo codice, puoi trovarmi in un museo o in un circuito di Formula 1!
 						</p>
-						<a href="#!" class="right" id="section-1-cv-button"><span>Scarica il mio CV</span></a>
+						<a href="assets/doc/cv.pdf" class="right" id="section-1-cv-button" download><span>Scarica il mio CV</span></a>
 					</div>
 				</div>
 			</div>
@@ -149,30 +152,30 @@
 			<div class="container">
 				<div class="row">
 					<div class="col s6 m3 center">
-						<img class="hobby-image" src="assets/img/hobby/car.png" alt="F1" width="30%">
+						<img class="hobby-image tooltipped" data-tooltip="Formula 1" data-position="bottom" src="assets/img/hobby/car.png" alt="F1" width="30%">
 					</div>
 					<div class="col s6 m3 center">
-						<img class="hobby-image" src="assets/img/hobby/r2d2.png" alt="Star Wars" width="30%">
+						<img class="hobby-image tooltipped" data-tooltip="Fantascienza" data-position="bottom" src="assets/img/hobby/r2d2.png" alt="Star Wars" width="30%">
 					</div>
 					<div class="col s6 m3 center">
-						<img class="hobby-image" src="assets/img/hobby/d20.png" alt="D&D" width="30%">
+						<img class="hobby-image tooltipped" data-tooltip="Giochi di ruolo" data-position="bottom" src="assets/img/hobby/d20.png" alt="D&D" width="30%">
 					</div>
 					<div class="col s6 m3 center">
-						<img class="hobby-image" src="assets/img/hobby/student.png" alt="Leggere" width="30%">
+						<img class="hobby-image tooltipped" data-tooltip="Leggere" data-position="bottom" src="assets/img/hobby/student.png" alt="Leggere" width="30%">
 					</div>
 				</div>
 				<div class="row">
 					<div class="col s6 m3 center">
-						<img class="hobby-image" src="assets/img/hobby/tech.png" alt="Tecnologia" width="30%">
+						<img class="hobby-image tooltipped" data-tooltip="Tecnologia" data-position="bottom" src="assets/img/hobby/tech.png" alt="Tecnologia" width="30%">
 					</div>
 					<div class="col s6 m3 center">
-						<img class="hobby-image" src="assets/img/hobby/drama.png" alt="Teatro" width="30%">
+						<img class="hobby-image tooltipped" data-tooltip="Teatro" data-position="bottom" src="assets/img/hobby/drama.png" alt="Teatro" width="30%">
 					</div>
 					<div class="col s6 m3 center">
-						<img class="hobby-image" src="assets/img/hobby/pi.png" alt="Matematica" width="30%">
+						<img class="hobby-image tooltipped" data-tooltip="Matematica" data-position="bottom" src="assets/img/hobby/pi.png" alt="Matematica" width="30%">
 					</div>
 					<div class="col s6 m3 center">
-						<img class="hobby-image" src="assets/img/hobby/david.png" alt="Arte" width="30%">
+						<img class="hobby-image tooltipped" data-tooltip="Arte" data-position="bottom" src="assets/img/hobby/david.png" alt="Arte" width="30%">
 					</div>
 				</div>
 			</div>
@@ -187,7 +190,6 @@
 				<div class="footer-copyright">
 					<div class="container">
 						© 2020 Mackerkun
-						<a class="grey-text text-lighten-4 right" href="#section1">Torna su</a>
 					</div>
 				</div>
 			</footer>
