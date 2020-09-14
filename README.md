@@ -1,5 +1,5 @@
 # Portfolio mockup
-Take a look at my portfolio at [www.mackerkun.it](www.mackerkun.it)!
+Take a look at my portfolio at [www.mackerkun.it](https://www.mackerkun.it)!
 
 
 ## Tools used for this project
