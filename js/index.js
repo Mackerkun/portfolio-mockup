@@ -15,7 +15,7 @@ $(document).ready(function () {
 		//options here
 		autoScrolling: true,
 		scrollHorizontally: true,
-		verticalCentered: false,
+		verticalCentered: true,
 		navigation: true,
 		slidesNavigation: true,
 		dragAndMove: true,
@@ -46,7 +46,7 @@ function checkMobile() {
 											class="material-icons right">more_vert</i></span>
 								</div>
 								<div class="card-action">
-									<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+									<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 								</div>
 								<div class="card-reveal">
 									<span class="card-title grey-text text-darken-4">Load Cell Calibration<i
@@ -71,7 +71,7 @@ function checkMobile() {
 											class="material-icons right">more_vert</i></span>
 								</div>
 								<div class="card-action">
-									<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+									<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 								</div>
 								<div class="card-reveal">
 									<span class="card-title grey-text text-darken-4">360 Video Analysis<i
@@ -97,7 +97,7 @@ function checkMobile() {
 											class="material-icons right">more_vert</i></span>
 								</div>
 								<div class="card-action">
-									<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+									<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 								</div>
 								<div class="card-reveal">
 									<span class="card-title grey-text text-darken-4">Blog<i class="material-icons right">close</i></span>
@@ -120,7 +120,7 @@ function checkMobile() {
 											class="material-icons right">more_vert</i></span>
 								</div>
 								<div class="card-action">
-									<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+									<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 								</div>
 								<div class="card-reveal">
 									<span class="card-title grey-text text-darken-4">Cimeli di attimi<i
@@ -146,7 +146,7 @@ function checkMobile() {
 											class="material-icons right">more_vert</i></span>
 								</div>
 								<div class="card-action">
-									<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+									<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 								</div>
 								<div class="card-reveal">
 									<span class="card-title grey-text text-darken-4">SelfieOfTheDay<i
@@ -163,32 +163,14 @@ function checkMobile() {
 			`
 		);
 		// Contacts
-		$('#section-5').html(
+		$('#contacts-main').html(
 			`
-				<h3 class="subtitle center">Contatti</h3>
-				<div class="slide">
-					<div class="container">
-						<div class="row">
-							<div class="col s12">
-								<a href="tel:3930110010">
-									<div class="card small hoverable" style="background-color: transparent;">
-										<div class="card-content white-text center">
-											<i class="material-icons small-medium">phone</i>
-											<span class="card-title">Telefono</span>
-											<p>+39 393 011 0010</p>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
 				<div class="slide">
 					<div class="container">
 						<div class="row">
 							<div class="col s12">
 								<a href="mailto:fiore.marco@outlook.it">
-									<div class="card small hoverable" style="background-color: transparent;">
+									<div class="card hoverable" style="background-color: transparent;">
 										<div class="card-content white-text center">
 											<i class="material-icons small-medium">mail</i>
 											<span class="card-title">E-mail</span>
@@ -199,13 +181,11 @@ function checkMobile() {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="slide">
 					<div class="container">
 						<div class="row">
 							<div class="col s12">
 								<a href="https://t.me/mackerkun" target="_blank">
-									<div class="card small hoverable" style="background-color: transparent;">
+									<div class="card hoverable" style="background-color: transparent;">
 										<div class="card-content white-text center">
 											<img src="assets/img/social/iconmonstr-telegram.png" alt="Telegram" height="33px" class="small-medium">
 											<span class="card-title">Telegram</span>
@@ -220,8 +200,23 @@ function checkMobile() {
 				<div class="slide">
 					<div class="container">
 						<div class="row">
+							<div class="col s12">
+								<a href="tel:3930110010">
+									<div class="card hoverable" style="background-color: transparent;">
+										<div class="card-content white-text center">
+											<i class="material-icons small-medium">phone</i>
+											<span class="card-title">Telefono</span>
+											<p>+39 393 011 0010</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="row">
 							<div class="col s12 m6">
-								<div class="card small hoverable" style="background-color: transparent;">
+								<div class="card hoverable" style="background-color: transparent;">
 									<div class="card-content white-text center">
 										<i class="material-icons small-medium">query_builder</i>
 										<span class="card-title">Orari di lavoro</span>
@@ -299,7 +294,7 @@ function checkMobile() {
 												class="material-icons right">more_vert</i></span>
 									</div>
 									<div class="card-action">
-										<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+										<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title grey-text text-darken-4">Load Cell Calibration<i
@@ -320,7 +315,7 @@ function checkMobile() {
 												class="material-icons right">more_vert</i></span>
 									</div>
 									<div class="card-action">
-										<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+										<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title grey-text text-darken-4">360 Video Analysis<i
@@ -342,7 +337,7 @@ function checkMobile() {
 												class="material-icons right">more_vert</i></span>
 									</div>
 									<div class="card-action">
-										<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+										<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title grey-text text-darken-4">Blog<i class="material-icons right">close</i></span>
@@ -367,7 +362,7 @@ function checkMobile() {
 												class="material-icons right">more_vert</i></span>
 									</div>
 									<div class="card-action">
-										<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+										<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title grey-text text-darken-4">Cimeli di attimi<i
@@ -389,7 +384,7 @@ function checkMobile() {
 												class="material-icons right">more_vert</i></span>
 									</div>
 									<div class="card-action">
-										<a class="activator" style="cursor: pointer; color: white;">Scopri di più</a>
+										<a class="activator" style="cursor: pointer; color: white; font-weight: 300;">Scopri di più</a>
 									</div>
 									<div class="card-reveal">
 										<span class="card-title grey-text text-darken-4">SelfieOfTheDay<i
@@ -407,9 +402,8 @@ function checkMobile() {
 			`
 		);
 		// Contacts
-		$('#section-5').html(
+		$('#contacts-main').html(
 			`
-				<h3 class="subtitle center">Contatti</h3>
 				<div class="slide">
 					<div class="container">
 						<div class="row">
@@ -439,9 +433,9 @@ function checkMobile() {
 								<a href="https://t.me/mackerkun" target="_blank">
 									<div class="card small hoverable" style="background-color: transparent;">
 										<div class="card-content white-text center">
-											<img src="assets/img/social/iconmonstr-telegram.png" alt="Telegram" height="33px" class="small-medium">
+											<img src="assets/img/social/iconmonstr-telegram.png" alt="Telegram" height="48.75px" class="small-medium">
 											<span class="card-title">Telegram</span>
-											<p>Contattami su Telegram, ti risponderò quanto prima!</p>
+											<p>Contattami su Telegram <br> ti risponderò quanto prima!</p>
 										</div>
 									</div>
 								</a>
@@ -465,8 +459,8 @@ function checkMobile() {
 							<div class="col s12">
 								<div class="card hoverable" style="background-color: transparent;">
 									<div class="card-content white-text center">
-										<i class="material-icons small-medium" style="margin-bottom: 5%;">format_quote</i>
-										<span class="card-title" style="margin-bottom: 5% !important;">Form</span>
+										<i class="material-icons small-medium" style="margin-bottom: 2%;">format_quote</i>
+										<span class="card-title" style="margin-bottom: 5% !important; font-size: 44px;">Form</span>
 										<div class="row">
 											<form class="col s12" id="form-contact-me">
 												<div class="row">
